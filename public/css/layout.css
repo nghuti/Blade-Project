@@ -1,0 +1,103 @@
+.sidebar{
+    width: 20vw;
+    background-color: darkgreen;
+    font-size: 20px;
+    padding: 20px 0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.logo img{
+    margin-left: 5px;
+    width: 95%;
+    height: 20%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px 60px;
+    height: 50px;;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.dropdown img{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.dropdown-content a{
+    padding: 0 80px;
+    font-size: 15px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+  
+
+a:hover {
+    background-color: rgb(0, 57, 0);
+}
+
+
+
+/*Navbar*/
+
+.navbar{
+ background-color: darkgreen;
+            color: white;
+            height: 15vh;
+            position: fixed;
+            top: 0;
+            left: 20vw; 
+            right: 0; 
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10 15px;
+}
+
+.navbar .title{
+    flex:1;
+    text-align: left;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.navbar .subtitle{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+.noti img, .account img{
+    width: 25px;
+    height: 25px;
+}
+
+.noti{
+    padding-right: 50px;
+}
+
+.account{
+    padding-right: 20px;
+}
+
+.content {
+        margin-left: 20vw; 
+        margin-top: 120px;
+        padding: 0;
+        height: 80vh; 
+        overflow-y: auto;
+        box-sizing: border-box;
+    }

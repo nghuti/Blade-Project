@@ -1,0 +1,46 @@
+
+.course-title{
+    padding: 10px 0;
+    background: linear-gradient(to right, darkgreen, #dd8f54);
+    margin-left: 30vw;
+    margin-top: 30px;
+    color: white;
+    position: relative;
+    right: 0;
+    left: 0;
+}
+
+.course-title h2{
+   margin-left: 40%;
+}
+
+
+.schedule-table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table thead th {
+    background:  linear-gradient(to right, darkgreen, rgb(0, 157, 0));
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    font-weight: bold;
+}
+
+
+.schedule-table tbody td {
+    padding: 10px;
+    border: 1px solid rgb(109, 114, 109);
+    height: 85px;
+}
+
+
+
