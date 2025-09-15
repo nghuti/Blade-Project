@@ -5,7 +5,7 @@
         <title>@yield('title','Trang layout chung')</title>
  
         <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
-<link rel="stylesheet" href="{{ asset('css/course.css') }}">
+        @stack('styles')
     </head>
 <body>
     <div class="sidebar" >
@@ -21,8 +21,8 @@
             </div>
 
             <div class="dropdown-content">
-                <a href="#">Course Schedule</a>
-                <a href="#">Exam Schedule</a>
+                <a href="/course">Course Schedule</a>
+                <a href="exam">Exam Schedule</a>
                 <a href="#">Graes & Transcript</a>
                 <a href="#">Attendance Tracker</a>
             </div>

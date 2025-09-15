@@ -1,4 +1,7 @@
 @extends('layout')
+@push('styles')
+    <link rel="stylesheet" href="{{ asset('css/course.css') }}">
+@endpush
 
 @section('title','Course Schedule')
 
