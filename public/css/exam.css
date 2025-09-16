@@ -63,6 +63,7 @@ body {
     font-size:small;
     font-weight: bold;
     background-color: #fd9f32;
+    cursor: pointer;
 }
 
 .search-btn:hover{
