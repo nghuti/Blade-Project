@@ -34,6 +34,17 @@ a{
     height: 20px;
 }
 
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+}
+
+.dropdown.active .dropdown-content {
+    display: flex; 
+}
+
+
 .dropdown-content a{
     padding: 0 80px;
     font-size: 15px;
@@ -42,15 +53,21 @@ a{
     align-items: center;
     justify-content: flex-start;
 }
-  
+
+
+.sidebar a.active, 
+.sidebar .dropdown.active > .dropdown-show > .dropdown-link {
+    background-color: rgb(0, 40, 0); 
+    color: orange; 
+}
+
 
 a:hover {
     background-color: rgb(0, 57, 0);
 }
 
 
-
-/*Navbar*/
+/*-------------------Navbar-----------------------------------*/
 
 .navbar{
  background-color: darkgreen;

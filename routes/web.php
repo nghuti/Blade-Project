@@ -15,5 +15,5 @@ Route::get('/course', function () {
 });
 
 Route::get('/exam', function () {
-    return view('/sis/examSchedule');
+    return view('sis/examSchedule');
 });
